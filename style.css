@@ -12,11 +12,11 @@ body {
 }
 
 .content_box {
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255,255,255,.7);
     border-radius: 25px;
     height: 610px;
-    margin-left: 27%;
-    margin-right: 27%;
+    margin-left: 23%;
+    margin-right: 31%;
     margin-top: 4%;
     padding-left: 1%;
     padding-right: 1%;
