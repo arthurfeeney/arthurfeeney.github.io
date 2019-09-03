@@ -12,7 +12,7 @@ body {
 }
 
 .content_box {
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255,255,255,.75);
     border-radius: 25px;
     height: 610px;
     margin-left: 23%;
@@ -50,8 +50,6 @@ body {
 
 .linkbutton {
     font-size: 1.1em;
-    padding-top:10px;
-    padding-bottom:10px;
     border: none;
     background:none;
 }
