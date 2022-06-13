@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Arthur Feeney"
   avatar           : "profile.png"
-  bio              : "I am a first-year PhD Student at UC Irvine, with interests in software systems and high performance computing"
+  bio              : "I am a first-year PhD Student at UC Irvine!"
   location         : "Irvine, CA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "github.com/arthurfeeney"
+  github           : "arthurfeeney"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
