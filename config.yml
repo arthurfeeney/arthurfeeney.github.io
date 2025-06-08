@@ -65,7 +65,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=4WCVpTkAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/arthurfeeney
 
