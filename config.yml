@@ -46,7 +46,7 @@ params:
     profileMode:
           enabled: true
           title: Arthur P. Feeney 
-          subtitle: "I am a PhD. student in the department of Electrical Engineering and Computer Science at the University of California Irvine."
+          subtitle: "I am a PhD student in the department of Electrical Engineering and Computer Science at the University of California Irvine. I am interested in GPUs, performance engineering, and algorithm design! I have also worked on Machine Learning for Science."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -55,6 +55,8 @@ params:
               url: papers/
             - name: Blog
               url: blog/ 
+            - name: HPCForge
+              url: https://hpcforge.eng.uci.edu
             - name: Archive
               url: archive/
 
