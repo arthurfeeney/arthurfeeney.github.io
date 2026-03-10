@@ -55,7 +55,7 @@ params:
               url: papers/
             - name: Blog
               url: blog/ 
-            - name: HPCForge
+            - name: Lab Page
               url: https://hpcforge.eng.uci.edu
             - name: Archive
               url: archive/
