@@ -1,4 +1,4 @@
 ---
 title: "Papers"
-description: "Preprints and articles by Professor Dr von Igelfeld."
+description: "Projects, preprints and, articles by Arthur Feeney."
 ---
