@@ -46,7 +46,11 @@ params:
     profileMode:
           enabled: true
           title: Arthur P. Feeney 
-          subtitle: "I am a PhD student in the department of Electrical Engineering and Computer Science at the University of California Irvine. I am interested in GPU programming, performance engineering, and Machine Learning for Science."
+          subtitle: |
+            I am a PhD student in the department of Electrical Engineering and Computer Science at the University of California Irvine. 
+            I work at the intersection of high‑performance computing and machine learning, with a focus on building scalable systems for scientific workloads.
+
+            My research interests include GPU programming, performance engineering, and machine learning for science. I enjoy designing algorithms and software that make large‑scale problems and data analysis faster, more efficient, and easier to use.
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160

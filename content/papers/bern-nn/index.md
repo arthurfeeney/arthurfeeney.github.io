@@ -3,6 +3,7 @@ title: "BERN-NN-IBF: Enhancing Neural Network Bound Propagation Through Implicit
 date: "2024-11-06"
 tags: ["GPU Programming", "Tensor Operations", "Neural Network Bounds", "Formal Verification"]
 author: ["Wael Fatnassi", "Arthur Feeney", "Valen Yamamoto", "Aparna Chandramowlishwaran", "Yasser Shoukry"]
+venue: "IEEE TCAD 2024"
 description: "This paper explores methods to perform efficient bounds-propagation on neural networks. Published in IEEE Transactions on Computer-Aided Design." 
 summary: "This paper explores methods to perform efficient bounds-propagation on neural networks." 
 cover:

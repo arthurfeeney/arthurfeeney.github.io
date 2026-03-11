@@ -64,6 +64,11 @@
       {{- end }}
     </h2>
   </header>
+  {{- with .Params.venue }}
+  <div class="entry-venue">
+    {{ . }}
+  </div>
+  {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
@@ -74,7 +79,9 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  {{- $external := .Params.external_url }}
+  {{- $href := cond $external $external .Permalink }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ $href }}" {{ if $external }}target="_blank" rel="noopener"{{ end }}></a>
 </article>
 {{- end }}
 

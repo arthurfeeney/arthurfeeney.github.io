@@ -4,6 +4,7 @@ date: "2023-12-10"
 tags: ["Machine Learning for Science", "Thermal Science", "Boiling", "PDE"]
 author: ["Sheikh Md Shakeel Hassan", "Arthur Feeney", "Akash Dhruv", "Jihoon Kim",
          "Youngjoon Suh", "Jaiyoung Ryu", "Yoonjin Won", "Aparna Chandramowlishwaran"]
+venue: "NeurIPS 2023 (Spotlight)"
 description: "This paper creates a challenging multiphase, multiphysics dataset for PDE Surrogates and does analysis of current limitations. Spotlight paper at NeurIPS 2023" 
 summary: "This paper creates a challenging multiphase, multiphysics dataset for PDE Surrogates and does analysis of current limitations." 
 cover:
@@ -15,6 +16,7 @@ cover:
 
 #### Project Links
 
++ [NeurIPS Poster](https://neurips.cc/virtual/2023/poster/73722)
 + [Openreview](https://openreview.net/forum?id=0Wmglu8zak)
 + [Github](https://github.com/HPCForge/BubbleML)
 
