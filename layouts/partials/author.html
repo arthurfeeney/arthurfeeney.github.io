@@ -1,9 +1,22 @@
 {{- if or .Params.author site.Params.author }}
 {{- $author := (.Params.author | default site.Params.author) }}
 {{- $author_type := (printf "%T" $author) }}
+
 {{- if (or (eq $author_type "[]string") (eq $author_type "[]interface {}")) }}
-{{- (delimit $author ",&thinsp;" | safeHTML ) }}
+  {{- $processed := slice }}
+  {{- range $author }}
+    {{- $name := . }}
+    {{- if eq $name "Arthur Feeney" }}
+      {{- $name = printf "<strong>%s</strong>" $name | safeHTML }}
+    {{- end }}
+    {{- $processed = $processed | append $name }}
+  {{- end }}
+  {{- (delimit $processed ",&thinsp;" | safeHTML) }}
 {{- else }}
-{{- $author }}
+  {{- $name := $author }}
+  {{- if eq $name "Arthur Feeney" }}
+    {{- $name = printf "<strong>%s</strong>" $name | safeHTML }}
+  {{- end }}
+  {{- $name | safeHTML }}
 {{- end }}
 {{- end -}}
